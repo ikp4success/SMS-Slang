@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="horizontal"
+    android:fillViewport="true"
+    android:scrollbars="horizontal" >
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/slng"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_x="57dp"
+            android:layout_y="10dp"
+            android:ems="10"
+            android:hint="add slang e.g:BRB"
+            android:textColor="@color/Black" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/Mslang"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_x="41dp"
+            android:layout_y="66dp"
+            android:ems="10"
+            android:hint="Slang Meaning e.g (BRB) be right back"
+            android:inputType="textMultiLine"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/adslng"
+            android:layout_width="102dp"
+            android:layout_height="68dp"
+            android:layout_x="96dp"
+            android:layout_y="185dp"
+            android:background="@color/DarkSlateGray"
+            android:clickable="true"
+            android:src="@drawable/focus2"
+            android:text="Add Slang"
+            android:textColor="@color/whitesmoke" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="190dp"
+            android:layout_height="56dp"
+            android:layout_x="61dp"
+            android:layout_y="258dp"
+            android:text="Your Slangs will be added on the next app update."
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="17dp"
+            android:layout_y="261dp"
+            android:src="@drawable/warnings" />
+
+    </AbsoluteLayout>
+
+</ScrollView>

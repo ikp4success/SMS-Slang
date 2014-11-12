@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/slng"
+            android:layout_width="434dp"
+            android:layout_height="108dp"
+            android:layout_x="187dp"
+            android:layout_y="27dp"
+            android:ems="10"
+            android:hint="add slang e.g:BRB"
+            android:textColor="@color/Black"
+            android:textColorHint="@color/Black" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/Mslang"
+            android:layout_width="484dp"
+            android:layout_height="255dp"
+            android:layout_x="168dp"
+            android:layout_y="189dp"
+            android:ems="10"
+            android:hint="Slang Meaning e.g (BRB) be right back"
+            android:inputType="textMultiLine"
+            android:textColor="@color/Black"
+            android:textColorHint="@color/Black" />
+
+        <Button
+            android:id="@+id/adslng"
+            android:layout_width="262dp"
+            android:layout_height="100dp"
+            android:layout_x="275dp"
+            android:layout_y="518dp"
+            android:background="@color/DarkSlateGray"
+            android:text="Add Slang"
+            android:textColor="@color/whitesmoke" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_x="261dp"
+            android:layout_y="632dp"
+            android:text="Your Slangs will be added on the next app update."
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="60dp"
+            android:layout_height="56dp"
+            android:layout_x="194dp"
+            android:layout_y="605dp"
+            android:src="@drawable/warnings" />
+
+    </AbsoluteLayout>
+

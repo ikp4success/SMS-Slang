@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Button
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_x="96dp"
+            android:layout_y="265dp"
+             />
+     <Button
+            android:layout_width="102dp"
+            android:layout_height="68dp"
+            android:layout_x="96dp"
+            android:layout_y="265dp"
+             />
+
+</selector>
